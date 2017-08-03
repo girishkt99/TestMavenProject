@@ -6,7 +6,7 @@ public class ProjectTest extends TestCase {
 
     public Actionwords actionwords = new Actionwords();
 
-    public void testSimpleUseUidacfa9d4c1bea49c194d39ab8f52ddaa2() {
+    public void simpleUse() {
 		// Given I start the coffee machine
     actionwords.iStartTheCoffeeMachine();
     // When I take a coffee
